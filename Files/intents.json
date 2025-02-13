@@ -1,0 +1,280 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hallo",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello there!",
+        "Hey! How's it going?",
+        "Hi! What's up?",
+        "Hello, how can I assist you today?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Is it going to rain today?",
+        "Will it be sunny tomorrow?",
+        "What's the forecast for today?",
+        "How's the weather?",
+        "Do I need an umbrella?",
+        "How is the weather today?",
+        "Is the weather good?",
+        "Tell me about the weather"
+      ],
+      "responses": [
+        "The weather seems interesting today!",
+        "It might change soon, stay tuned.",
+        "The forecast is a bit unpredictable, I have no idea!",
+        "It could be sunny or rainy, who knows!",
+        "I'm sure the weather will surprise you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "I appreciate it",
+        "Thank you so much",
+        "Ty"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help!",
+        "Anytime, glad to be of assistance!",
+        "You're very welcome!",
+        "It's my pleasure!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Bye",
+        "Catch you later",
+        "Cya"
+      ],
+      "responses": [
+        "See you around!",
+        "Take care, have a great day!",
+        "Goodbye, stay safe!",
+        "Until next time!",
+        "Bye! Come back soon!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Can you assist me?",
+        "I need help",
+        "Help me out",
+        "Can you do something for me?",
+        "help please"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "I'm here for you, just let me know how I can assist.",
+        "Tell me what you need, and I'll try my best!",
+        "Sure, what can I do for you today?",
+        "How can I assist you right now?"
+      ]
+    },
+    {
+      "tag": "fruit",
+      "patterns": [
+        "What is the best fruit?",
+        "What is your favourite fruit?",
+        "Do you know about fruit?",
+        "Tell me about fruit",
+        "Do you like fruit?"
+      ],
+      "responses": [
+        "Bannanas are the best!",
+        "Bananans are the tastiest!",
+        "I like bananas the most!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Can you make me laugh?",
+        "Say something funny",
+        "I need a joke",
+        "Do you know any jokes?",
+        "Have any jokes?"
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "What's orange and sounds like a parrot? A carrot!",
+        "Why was the math book sad? It had too many problems!",
+        "I told my computer I needed a break, and now it won't stop sending me Kit-Kats!",
+        "I'm reading a book about anti-gravity, it's impossible to put down!"
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "How's it going?",
+        "What's up?",
+        "What are you doing?",
+        "How are you?",
+        "Are you ok?",
+        "How are you right now?",
+        "What's new?"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking!",
+        "Just hanging around, what about you?",
+        "All good here, how about you?",
+        "Same old, same old! What's up with you?",
+        "I'm here and ready to chat!"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I'm not happy with this",
+        "This isn't working",
+        "I'm frustrated",
+        "This is disappointing",
+        "I don't like this",
+        "I hate this",
+        "This sucks",
+        "I'm so angry",
+        "I'm so sad and upset"
+      ],
+      "responses": [
+        "I'm sorry to hear that! Let me know how I can assist you.",
+        "I understand your frustration. How can I help you resolve this?",
+        "I'm here to help, let me know what's bothering you.",
+        "Let's sort this out! What can I do to fix this?",
+        "I'll do my best to assist, what's the issue?"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I need some motivation",
+        "I'm feeling down",
+        "Give me some encouragement",
+        "Can you inspire me?",
+        "I need a boost",
+        "Do you have any motivation"
+      ],
+      "responses": [
+        "You've got this! Keep pushing forward!",
+        "Believe in yourself, you're stronger than you think!",
+        "Every step counts, keep going!",
+        "You're on the right path, don't give up!",
+        "Challenges are just opportunities in disguise!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "What should I call you?",
+        "Can you tell me your name?",
+        "Who am I chatting with?",
+        "Do you have a name?"
+      ],
+      "responses": [
+        "You can call me whatever you'd like!",
+        "I'm just a chatbot here to help!",
+        "I don't have a name, but I'm here for you!",
+        "I'm your friendly assistant, no name needed!",
+        "Call me anything that works for you!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Can you tell me the time?",
+        "What's the current time?",
+        "How much time do I have?",
+        "Do you know the time?"
+      ],
+      "responses": [
+        "Sorry, I can't tell the time right now.",
+        "I'm not sure of the time, but I can help with something else!",
+        "I don't know the time at the moment, sorry!",
+        "Unfortunately, I can't check the time for you.",
+        "I'm afraid I can't provide the time, but let me know what else you need!"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you from?",
+        "Where do you live?",
+        "Where are you located?",
+        "Where's your home?",
+        "Can you tell me where you are?",
+        "What's your location?",
+        "Do you have a location?"
+      ],
+      "responses": [
+        "I exist in the digital world, so I don't have a physical location.",
+        "I live wherever I'm needed, here to assist you!",
+        "I'm right here, wherever you are!",
+        "I don't have a location, but I'm here to help you anytime!",
+        "In the cloud, always ready to chat!"
+      ]
+    },
+    {
+      "tag": "nice_cool",
+      "patterns": [
+        "That's cool!",
+        "Nice job!",
+        "That's awesome!",
+        "Good work!",
+        "I love that!",
+        "This is great!",
+        "That was good",
+        "Really nice and good"
+      ],
+      "responses": [
+        "Thanks! I'm glad you think so!",
+        "I appreciate that, it means a lot!",
+        "I'm happy you like it!",
+        "Glad you think so! Thanks!",
+        "You rock, thanks for the support!",
+        "Thank you! I'm glad you enjoy it!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You look great!",
+        "You're amazing!",
+        "You're so talented!",
+        "You're really good at this!",
+        "I love your style!"
+      ],
+      "responses": [
+        "Aw, thank you so much! That made my day!",
+        "You're too kind, thank you!",
+        "I appreciate that! You're awesome too!",
+        "Thanks, you're making me blush!",
+        "You're sweet! Thanks for the compliment!"
+      ]
+    }    
+  ]
+}
